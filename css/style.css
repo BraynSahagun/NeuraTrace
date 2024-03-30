@@ -4,14 +4,45 @@ body {
   margin: 0px;
   padding-bottom: 60px;
 }
+
 h2 {
   font-family: "Bodoni MT";
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
   color: #f48e9c;
   margin-top: 15px;
 }
-/** Footer **/
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #303030;
+  padding: 10px 20px;
+  color: #f48e9c;
+}
+
+.navbar-text {
+  font-family: "Bodoni MT";
+  font-weight: 500;
+  font-size: 22px;
+  margin-left: -1075px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 20px;
+}
+
+.navbar-links a:hover {
+  text-decoration: none;
+  color: #f8b6bc;
+}
+
+/* Footer */
 
 .footer {
   background-color: #303030;
@@ -23,18 +54,18 @@ h2 {
   box-sizing: border-box;
 }
 
-.top-section{
+.top-section {
   margin-bottom: 10px;
 }
 
 .bottom-section {
-  background-color: #B76E79;
+  background-color: #b76e79;
   box-sizing: border-box;
   width: 100%;
   height: 40px;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 .footer a {
@@ -43,17 +74,17 @@ h2 {
   text-decoration: none;
 }
 
-.lema{
+.lema {
   margin-top: -20px;
-  color: #FFCED2;
+  color: #ffced2;
 }
 
-.copyright{
-  color:#303030;
+.copyright {
+  color: #303030;
   font-weight: 500;
 }
 
-/** Tamaño para los íconos **/
+/* Tamaño para los íconos */
 
 .social-icons img {
   width: 35px;
