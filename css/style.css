@@ -24,11 +24,16 @@ h2 {
   color: #f48e9c;
 }
 
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-text {
   font-family: "Bodoni MT";
   font-weight: 500;
   font-size: 22px;
-  margin-left: -1075px;
+  margin-left: 20px;
 }
 
 .navbar-links a {
