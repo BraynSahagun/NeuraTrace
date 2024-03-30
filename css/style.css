@@ -1,0 +1,61 @@
+body {
+  font-family: "Raleway";
+  background-color: #fffdfd;
+  margin: 0px;
+  padding-bottom: 60px;
+}
+h2 {
+  font-family: "Bodoni MT";
+  font-weight: 500;
+  font-size: 40px;
+  color: #f48e9c;
+  margin-top: 15px;
+}
+/** Footer **/
+
+.footer {
+  background-color: #303030;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.top-section{
+  margin-bottom: 10px;
+}
+
+.bottom-section {
+  background-color: #B76E79;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.lema{
+  margin-top: -20px;
+  color: #FFCED2;
+}
+
+.copyright{
+  color:#303030;
+  font-weight: 500;
+}
+
+/** Tamaño para los íconos **/
+
+.social-icons img {
+  width: 35px;
+  height: 35px;
+}
