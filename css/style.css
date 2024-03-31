@@ -129,3 +129,15 @@ h2 {
   width: 35px;
   height: 35px;
 }
+
+/* Canva */
+#resultado {
+  font-weight:  bold;
+  font-size:  6rem;
+  text-align: center;
+}
+
+.canvas-container {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
