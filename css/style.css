@@ -5,12 +5,27 @@ body {
   padding-bottom: 60px;
 }
 
+h1 {
+  font-family: "Bodoni MT";
+  font-weight: 800;
+  font-size: 35px;
+  color: #303030;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
 h2 {
   font-family: "Bodoni MT";
   font-weight: 500;
-  font-size: 30px;
+  font-size: 20px;
   color: #f48e9c;
-  margin-top: 15px;
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 /* Navbar */
@@ -91,6 +106,10 @@ h2 {
   height: auto;
   text-align: center;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-around; 
 }
 
 .top-section {
@@ -101,7 +120,7 @@ h2 {
   background-color: #b76e79;
   box-sizing: border-box;
   width: 100%;
-  height: 40px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,13 +133,14 @@ h2 {
 }
 
 .lema {
-  margin-top: -20px;
+  margin-top: 0px;
   color: #ffced2;
 }
 
 .copyright {
   color: #303030;
   font-weight: 500;
+  margin-bottom: 5px;
 }
 
 /* Tamaño para los íconos */
@@ -131,6 +151,7 @@ h2 {
 }
 
 /* Canva */
+
 #resultado {
   font-weight:  bold;
   font-size:  6rem;
@@ -140,4 +161,24 @@ h2 {
 .canvas-container {
     margin: 0 auto;
     border: 1px solid #ccc;
+}
+
+/* Botones */
+
+.boton {
+  background-color: #F48E9C;
+  border: none; 
+  padding: 5px 10px; 
+  border-radius: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover:active {
+  background-color: #FDA3B0;
+}
+
+.boton:hover:hover {
+  background-color: #f8b6bc;
 }
