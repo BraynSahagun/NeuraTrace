@@ -120,7 +120,12 @@ function resample_single(canvas, width, height, resize_canvas) {
 
 function obtenerArregloLetras() {
   const letras = [];
+  // Agregar mayúsculas (A-Z)
   for (let i = 65; i <= 90; i++) {
+    letras.push(String.fromCharCode(i));
+  }
+  // Agregar minúsculas (a-z)
+  for (let i = 97; i <= 122; i++) {
     letras.push(String.fromCharCode(i));
   }
   return letras;
@@ -129,6 +134,6 @@ function obtenerArregloLetras() {
 //Cargar modelo
 (async () => {
   console.log("Cargando modelo...");
-  modeloLetras = await tf.loadLayersModel("modelletras.json");
+  modeloLetras = await tf.loadLayersModel("entrenamiento2.json");
   console.log("Modelo cargado...");
 })();
