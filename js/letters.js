@@ -134,6 +134,6 @@ function obtenerArregloLetras() {
 //Cargar modelo
 (async () => {
   console.log("Cargando modelo...");
-  modeloLetras = await tf.loadLayersModel("entrenamiento2.json");
+  modeloLetras = await tf.loadLayersModel("modelletters.json");
   console.log("Modelo cargado...");
 })();
